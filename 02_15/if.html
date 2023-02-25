@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if</title>
+</head>
+<body>
+    <script>
+        let a=16
+        if(a%2==0){
+            console.log(`a szám páros - ${a}`)
+        }else{
+            console.log(`a szám páratlan - ${a}`)
+        }
+        //ternáris operátor:
+        console.log(``)
+
+
+
+
+
+
+
+
+        let username="rge"
+        if(username.length==0){
+            console.log('nem adtál felhasználónevet')
+        }else{
+            console.log(username)
+        }
+
+
+        let b='100' //string
+        let c=100 //number
+        if(b===c){
+            console.log('a két szám egyenlő')
+        }else{
+            console.log('nem egyenlő')
+        }
+        //többszörös elágazás:
+        let ora=9
+        if(ora>22)
+            console.log('jó éjszakát')
+        else if(ora>18)
+            console.log('jó estét')
+        else if(ora>12)
+            console.log('szép délutánt')
+        else
+            console.log('jó reggelt')
+
+        //logikai operátorok
+        if(ora>=5 && ora<=12)
+            console.log('jó reggelt')
+        else if(ora>12 && ora<=18)
+            console.log('szép délutánt')
+        else if(ora>18 && ora<22)
+            console.log('jó estét')
+        else
+            console.log('jó éjszakát')
+
+
+        //vagy: ||
+        if(ora>20 || ora<8)
+            console.log('Zárva')
+        else
+            console.log('Nyitva')
+
+
+
+//ternáris operátor:
+        console.log(`----------`)
+        let paritas
+        if(a%2==0){
+            paritas='a szám páros'
+        }else{
+            paritas='a szám páratlan'
+        }
+        console.log(paritas)
+
+//ternáris operátor:
+        paritas= a%2==0 ? 'a szám páros' : 'a szám páratlan'
+        console.log(paritas)
+
+
+
+//nem egyenlő
+        let pw="123456"
+        let userPw=prompt("add meg a jelszót")
+        if(pw!=userPw)
+            alert("hibás jelszó")
+        
+//logikai
+        let flag=true
+        if(flag)
+            console.log('Igaz')
+        if(!flag)
+            console.log('False')
+
+    </script>
+</body>
+</html>
