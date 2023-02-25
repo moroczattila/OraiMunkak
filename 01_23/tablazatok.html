@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Táblázatok</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Hétköznap</th>
+                <th>Szombat</th>
+                <th>Vasárnap</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:12</td>
+                <td>8:12</td>
+                <td>Zárva</td>
+            </tr>
+            <tr>
+                <td>14:18</td>
+                <td>14:16</td>
+                <td>Zárva</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <table>
+        <thead>
+            <tr>
+                <th>Hétköznap</th>
+                <th>Szombat</th>
+                <th>Vasárnap</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:12</td>
+                <td>8:12</td>
+                <td rowspan="2">Zárva</td>
+            </tr>
+            <tr>
+                <td>14:18</td>
+                <td>14:16</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <table>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Kaja</th>
+                <th>Számlák</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>December</th>
+                <td>80000</td>
+                <td>120000</td>
+            </tr>
+            <tr>
+                <th>Január</th>
+                <td>90000</td>
+                <td>140000</td>
+            </tr>
+            <tr>
+                <th>Összesen</th>
+                <td colspan="2">430000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Alapok</title>
+    <style>
+        p {
+            border: 1px solid black;
+        }
+        .kiemel {
+            color: blue;
+            font-size: 120%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color:red">Reszponzív weboldal</h1>
+    <p>A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális
+        megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és
+        görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
+    </p>
+
+    <h2>Mobile First</h2>
+    <p class="kiemel">Magyarul: először a mobil, tehát a fejlesztést megelőző tervezés menete megfordul.
+
+        A hagyományos tervezés az asztali számítógép monitorméretein alapszik, szóval a "régi" világ tervezői,
+        designerei számára ez a legkényelmesebb felület. Miután elkészültek a széles eszközökön jól mutató tervek,
+        elkezdődik annak az eggyel kisebb méretű (tipikusan tablet) eszközökre való adaptálása, míg el nem jutunk a
+        legkisebb méretig. Addigra a terveink zsúfoltak, átláthatatlanok lesznek, mivel ami elfér egy számítógép
+        monitorán, sajnos nehezen fér el kompromisszumok nélkül egy zsebméretű telefon kijelzőjén.
+    </p>
+
+    <h2>Progressive enhancement</h2>
+    <p>Magyarul: folyamatos növelés, tehát attól függően, hogy milyen eszköz, illetve sávszélesség áll rendelkezésre,
+        más és más megjelenítéssel áll elő ugyanaz a tartalom.
+
+        A lényeg az, hogy a szöveges vagy képi tartalmi részekből minden látogató ugyanazt kapja, de mindenkinek úgy
+        tálaljuk azt, ahogy azt a körülmények megengedik. Nevezhetnénk Content First szemléletnek is, mert lényegében
+        arról van szó, hogy minden más weboldalelem a tartalomnak van alárendelve. Ez fontos, hiszen a weboldalak
+        elsősorban információátadás céljából készülnek. A látványos részek háttérbe szorulnak, illetve csak akkor
+        kerülnek képbe, ha az adott eszköz, illetve elérhető internetsebesség mellett a tartalom prezentálása
+        zökkenőmentes.
+    </p>
+
+</body>
+
+</html>
