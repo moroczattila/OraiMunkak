@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Montserrat';
+    
 }
 
 .container {
@@ -24,6 +25,8 @@ img {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    padding-bottom: 10px;
+    position: relative;
 }
 
 .card {
@@ -35,8 +38,45 @@ img {
     margin: 4px;
 }
 
+.newsletter {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+.email{
+    display: block;
+    width: calc(100% - 8px);
+    height: 1.5rem;
+    padding: 0;
+    margin: 4px;
+    
+}
+
+button {
+    display: block;
+    width: calc(100% - 8px);
+    background-color: palegreen;
+    padding: 4px;
+    margin: 4px;
+    border: 0;
+
+}
+
 
 .qmark{
     background-color: palegreen;
     display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
 }
